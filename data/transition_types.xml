@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TransitionTypes>
+  <TransitionType name="Top">
+    <HashKeys>
+      <HashKey value="BBBAAAAAA" />
+      <HashKey value="ABBAAAAAA" />
+      <HashKey value="BBAAAAAAA" />
+      <HashKey value="ABAAAAAAA" />
+      <HashKey value="BABAAAAAA" />
+    </HashKeys>
+  </TransitionType>
+  <TransitionType name="Left">
+    <HashKeys>
+      <HashKey value="BAABAABAA" />
+      <HashKey value="BAABAAAAA" />
+      <HashKey value="AAABAABAA" />
+      <HashKey value="AAABAAAAA" />
+      <HashKey value="BAAAAABAA" />
+    </HashKeys>
+  </TransitionType>
+  <TransitionType name="Right">
+    <HashKeys>
+      <HashKey value="AABAABAAB" />
+      <HashKey value="AAAAABAAB" />
+      <HashKey value="AABAABAAA" />
+      <HashKey value="AAAAABAAA" />
+      <HashKey value="AABAAAAAB" />
+    </HashKeys>
+  </TransitionType>
+  <TransitionType name="Bottom">
+    <HashKeys>
+      <HashKey value="AAAAAABBB" />
+      <HashKey value="AAAAAABBB" />
+      <HashKey value="AAAAAAABB" />
+      <HashKey value="AAAAAAABB" />
+      <HashKey value="AAAAAABAB" />
+    </HashKeys>
+  </TransitionType>
+  <TransitionType name="Bottom Right">
+    <HashKeys>
+      <HashKey value="AABAABBBB" />
+      <HashKey value="AAAAABBBB" />
+      <HashKey value="AABAABABB" />
+      <HashKey value="AAAAABABB" />
+      <HashKey value="AAAAABABB" />
+      <HashKey value="AABAAAABB" />
+      <HashKey value="AABAAABBB" />
+      <HashKey value="AABAAABBB" />
+      <HashKey value="AAAAABBAB" />
+      <HashKey value="AABAABBAB" />
+      <HashKey value="AABAABBBB" />
+      <HashKey value="AABAABBAB" />
+      <HashKey value="AABAAAABB" />
+      <HashKey value="AAAAABBAB" />
+      <HashKey value="AABAABABB" />
+      <HashKey value="AABAAABAB" />
+      <HashKey value="AAAAABBBB" />
+    </HashKeys>
+  </TransitionType>
+  <TransitionType name="Top Left">
+    <HashKeys>
+      <HashKey value="BBBBAABAA" />
+      <HashKey value="BBABAABAA" />
+      <HashKey value="BBBBAAAAA" />
+      <HashKey value="BBABAAAAA" />
+      <HashKey value="BABBAAAAA" />
+      <HashKey value="BBAAAABAA" />
+      <HashKey value="ABBAAABAA" />
+      <HashKey value="BABAAABAA" />
+      <HashKey value="BBBAAABAA" />
+      <HashKey value="ABABAAAAA" />
+      <HashKey value="BABBAABAA" />
+      <HashKey value="AABBAABAA" />
+      <HashKey value="ABBBAABAA" />
+      <HashKey value="AABBAAAAA" />
+      <HashKey value="ABABAABAA" />
+      <HashKey value="ABAAAABAA" />
+      <HashKey value="ABBBAAAAA" />
+    </HashKeys>
+  </TransitionType>
+  <TransitionType name="Bottom Left">
+    <HashKeys>
+      <HashKey value="BAABAABBB" />
+      <HashKey value="AAABAABBB" />
+      <HashKey value="BAABAABBA" />
+      <HashKey value="AAABAABBA" />
+      <HashKey value="AAABAAABA" />
+      <HashKey value="BAABAAAAB" />
+      <HashKey value="BAAAAABBB" />
+      <HashKey value="BAAAAABBA" />
+      <HashKey value="BAAAAAABA" />
+      <HashKey value="AAABAABAB" />
+      <HashKey value="BAABAABAB" />
+      <HashKey value="BAAAAAABB" />
+      <HashKey value="BAABAAABB" />
+      <HashKey value="AAABAAABB" />
+      <HashKey value="AAABAAAAB" />
+      <HashKey value="BAAAAABAB" />
+      <HashKey value="BAABAAABA" />
+    </HashKeys>
+  </TransitionType>
+  <TransitionType name="Top Right">
+    <HashKeys>
+      <HashKey value="BBBAABAAB" />
+      <HashKey value="BBBAABAAA" />
+      <HashKey value="ABBAABAAB" />
+      <HashKey value="ABBAABAAA" />
+      <HashKey value="BAAAABAAB" />
+      <HashKey value="BABAABAAA" />
+      <HashKey value="BABAABAAB" />
+      <HashKey value="BBAAAAAAB" />
+      <HashKey value="ABAAAAAAB" />
+      <HashKey value="BBBAAAAAB" />
+      <HashKey value="BBAAABAAA" />
+      <HashKey value="ABBAAAAAB" />
+      <HashKey value="ABAAABAAA" />
+      <HashKey value="BAAAABAAA" />
+      <HashKey value="BABAAAAAB" />
+      <HashKey value="ABAAABAAB" />
+      <HashKey value="BBAAABAAB" />
+    </HashKeys>
+  </TransitionType>
+  <TransitionType name="Outer Top Left">
+    <HashKeys>
+      <HashKey value="BAAAAAAAA" />
+    </HashKeys>
+  </TransitionType>
+  <TransitionType name="Outer Bottom Right">
+    <HashKeys>
+      <HashKey value="AAAAAAAAB" />
+    </HashKeys>
+  </TransitionType>
+  <TransitionType name="Outer Top Right">
+    <HashKeys>
+      <HashKey value="AABAAAAAA" />
+    </HashKeys>
+  </TransitionType>
+  <TransitionType name="Outer Bottom Left">
+    <HashKeys>
+      <HashKey value="AAAAAABAA" />
+    </HashKeys>
+  </TransitionType>
+  <TransitionType name="Autocorrect">
+    <HashKeys>
+      <HashKey value="AAABABAAA" />
+      <HashKey value="AAABABBAA" />
+      <HashKey value="AAABABABA" />
+      <HashKey value="AAABABBBA" />
+      <HashKey value="AAABABAAB" />
+      <HashKey value="AAABABBAB" />
+      <HashKey value="AAABABABB" />
+      <HashKey value="AAABABBBB" />
+      <HashKey value="AABBAAABA" />
+      <HashKey value="AABBAABBA" />
+      <HashKey value="AABBAAAAB" />
+      <HashKey value="AABBAABAB" />
+      <HashKey value="AABBAAABB" />
+      <HashKey value="AABBAABBB" />
+      <HashKey value="AABBABAAA" />
+      <HashKey value="AABBABBAA" />
+      <HashKey value="AABBABABA" />
+      <HashKey value="AABBABBBA" />
+      <HashKey value="AABBABAAB" />
+      <HashKey value="AABBABBAB" />
+      <HashKey value="AABBABABB" />
+      <HashKey value="AABBABBBB" />
+      <HashKey value="ABAAAAABA" />
+      <HashKey value="ABABAAABA" />
+      <HashKey value="ABAAAABBA" />
+      <HashKey value="ABABAABBA" />
+      <HashKey value="ABABAAAAB" />
+      <HashKey value="ABAAAABAB" />
+      <HashKey value="ABABAABAB" />
+      <HashKey value="ABAAAAABB" />
+      <HashKey value="ABABAAABB" />
+      <HashKey value="ABAAAABBB" />
+      <HashKey value="ABABAABBB" />
+      <HashKey value="ABABABAAA" />
+      <HashKey value="ABAAABBAA" />
+      <HashKey value="ABABABBAA" />
+      <HashKey value="ABAAABABA" />
+      <HashKey value="ABABABABA" />
+      <HashKey value="ABAAABBBA" />
+      <HashKey value="ABABABBBA" />
+      <HashKey value="ABABABAAB" />
+      <HashKey value="ABAAABBAB" />
+      <HashKey value="ABABABBAB" />
+      <HashKey value="ABAAABABB" />
+      <HashKey value="ABABABABB" />
+      <HashKey value="ABAAABBBB" />
+      <HashKey value="ABABABBBB" />
+      <HashKey value="ABBAAAABA" />
+      <HashKey value="ABBBAAABA" />
+      <HashKey value="ABBAAABBA" />
+      <HashKey value="ABBBAABBA" />
+      <HashKey value="ABBBAAAAB" />
+      <HashKey value="ABBAAABAB" />
+      <HashKey value="ABBBAABAB" />
+      <HashKey value="ABBAAAABB" />
+      <HashKey value="ABBBAAABB" />
+      <HashKey value="ABBAAABBB" />
+      <HashKey value="ABBBAABBB" />
+      <HashKey value="ABBBABAAA" />
+      <HashKey value="ABBAABBAA" />
+      <HashKey value="ABBBABBAA" />
+      <HashKey value="ABBAABABA" />
+      <HashKey value="ABBBABABA" />
+      <HashKey value="ABBAABBBA" />
+      <HashKey value="ABBBABBBA" />
+      <HashKey value="ABBBABAAB" />
+      <HashKey value="ABBAABBAB" />
+      <HashKey value="ABBBABBAB" />
+      <HashKey value="ABBAABABB" />
+      <HashKey value="ABBBABABB" />
+      <HashKey value="ABBAABBBB" />
+      <HashKey value="ABBBABBBB" />
+      <HashKey value="BAABABAAA" />
+      <HashKey value="BAAAABBAA" />
+      <HashKey value="BAABABBAA" />
+      <HashKey value="BAAAABABA" />
+      <HashKey value="BAABABABA" />
+      <HashKey value="BAAAABBBA" />
+      <HashKey value="BAABABBBA" />
+      <HashKey value="BAABABAAB" />
+      <HashKey value="BAAAABBAB" />
+      <HashKey value="BAABABBAB" />
+      <HashKey value="BAAAABABB" />
+      <HashKey value="BAABABABB" />
+      <HashKey value="BAAAABBBB" />
+      <HashKey value="BAABABBBB" />
+      <HashKey value="BABAAAABA" />
+      <HashKey value="BABBAAABA" />
+      <HashKey value="BABAAABBA" />
+      <HashKey value="BABBAABBA" />
+      <HashKey value="BABBAAAAB" />
+      <HashKey value="BABAAABAB" />
+      <HashKey value="BABBAABAB" />
+      <HashKey value="BABAAAABB" />
+      <HashKey value="BABBAAABB" />
+      <HashKey value="BABAAABBB" />
+      <HashKey value="BABBAABBB" />
+      <HashKey value="BABBABAAA" />
+      <HashKey value="BABAABBAA" />
+      <HashKey value="BABBABBAA" />
+      <HashKey value="BABAABABA" />
+      <HashKey value="BABBABABA" />
+      <HashKey value="BABAABBBA" />
+      <HashKey value="BABBABBBA" />
+      <HashKey value="BABBABAAB" />
+      <HashKey value="BABAABBAB" />
+      <HashKey value="BABBABBAB" />
+      <HashKey value="BABAABABB" />
+      <HashKey value="BABBABABB" />
+      <HashKey value="BABAABBBB" />
+      <HashKey value="BABBABBBB" />
+      <HashKey value="BBAAAAABA" />
+      <HashKey value="BBABAAABA" />
+      <HashKey value="BBAAAABBA" />
+      <HashKey value="BBABAABBA" />
+      <HashKey value="BBABAAAAB" />
+      <HashKey value="BBAAAABAB" />
+      <HashKey value="BBABAABAB" />
+      <HashKey value="BBAAAAABB" />
+      <HashKey value="BBABAAABB" />
+      <HashKey value="BBAAAABBB" />
+      <HashKey value="BBABAABBB" />
+      <HashKey value="BBABABAAA" />
+      <HashKey value="BBAAABBAA" />
+      <HashKey value="BBABABBAA" />
+      <HashKey value="BBAAABABA" />
+      <HashKey value="BBABABABA" />
+      <HashKey value="BBAAABBBA" />
+      <HashKey value="BBABABBBA" />
+      <HashKey value="BBABABAAB" />
+      <HashKey value="BBAAABBAB" />
+      <HashKey value="BBABABBAB" />
+      <HashKey value="BBAAABABB" />
+      <HashKey value="BBABABABB" />
+      <HashKey value="BBAAABBBB" />
+      <HashKey value="BBABABBBB" />
+      <HashKey value="BBBAAAABA" />
+      <HashKey value="BBBBAAABA" />
+      <HashKey value="BBBAAABBA" />
+      <HashKey value="BBBBAABBA" />
+      <HashKey value="BBBBAAAAB" />
+      <HashKey value="BBBAAABAB" />
+      <HashKey value="BBBBAABAB" />
+      <HashKey value="BBBAAAABB" />
+      <HashKey value="BBBBAAABB" />
+      <HashKey value="BBBAAABBB" />
+      <HashKey value="BBBBAABBB" />
+      <HashKey value="BBBBABAAA" />
+      <HashKey value="BBBAABBAA" />
+      <HashKey value="BBBBABBAA" />
+      <HashKey value="BBBAABABA" />
+      <HashKey value="BBBBABABA" />
+      <HashKey value="BBBAABBBA" />
+      <HashKey value="BBBBABBBA" />
+      <HashKey value="BBBBABAAB" />
+      <HashKey value="BBBAABBAB" />
+      <HashKey value="BBBBABBAB" />
+      <HashKey value="BBBAABABB" />
+      <HashKey value="BBBBABABB" />
+      <HashKey value="BBBAABBBB" />
+      <HashKey value="BBBBABBBB" />
+    </HashKeys>
+  </TransitionType>
+  <TransitionType name="Invalid">
+    <HashKeys>
+      <HashKey value="BAAAAAAAB" />
+      <HashKey value="AABAAABAA" />
+    </HashKeys>
+  </TransitionType>
+</TransitionTypes>
