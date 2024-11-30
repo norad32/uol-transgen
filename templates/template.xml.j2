@@ -1,0 +1,19 @@
+<!-- templates/template.xml.j2 -->
+
+<?xml version="1.0" encoding="utf-8"?>
+<Trans>
+  {% for trans in trans_infos %}
+  <TransInfo Description="{{ trans.description }}" HashKey="{{ trans.hashkey }}">
+    <MapTiles>
+      {% for tile in trans.maptiles %}
+      <MapTile TileID="{{ tile.TileID }}" AltIDMod="{{ tile.AltIDMod }}" />
+      {% endfor %}
+    </MapTiles>
+    <StaticTiles>
+      {% for tile in trans.statictiles %}
+      <StaticTile TileID="{{ tile.TileID }}" AltIDMod="{{ tile.AltIDMod }}" />
+      {% endfor %}
+    </StaticTiles>
+  </TransInfo>
+  {% endfor %}
+</Trans>
