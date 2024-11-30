@@ -1,4 +1,4 @@
-<h1 align="center">UO Landscaper Transition XML Generator</h1>
+<h1 align="center">UOL Transgen</h1>
 
 <div align="center">
     
