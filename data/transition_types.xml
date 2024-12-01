@@ -30,9 +30,9 @@
   <TransitionType name="Bottom">
     <HashKeys>
       <HashKey value="AAAAAABBB" />
-      <HashKey value="AAAAAABBB" />
+      <HashKey value="AAAAAABBA" />
       <HashKey value="AAAAAAABB" />
-      <HashKey value="AAAAAAABB" />
+      <HashKey value="AAAAAAABA" />
       <HashKey value="AAAAAABAB" />
     </HashKeys>
   </TransitionType>
@@ -42,19 +42,19 @@
       <HashKey value="AAAAABBBB" />
       <HashKey value="AABAABABB" />
       <HashKey value="AAAAABABB" />
-      <HashKey value="AAAAABABB" />
+      <HashKey value="AAAAABABA" />
       <HashKey value="AABAAAABB" />
       <HashKey value="AABAAABBB" />
-      <HashKey value="AABAAABBB" />
+      <HashKey value="AABAAABBA" />
       <HashKey value="AAAAABBAB" />
       <HashKey value="AABAABBAB" />
-      <HashKey value="AABAABBBB" />
-      <HashKey value="AABAABBAB" />
-      <HashKey value="AABAAAABB" />
-      <HashKey value="AAAAABBAB" />
-      <HashKey value="AABAABABB" />
+      <HashKey value="AABAABBBA" />
+      <HashKey value="AABAABBAA" />
+      <HashKey value="AABAAAABA" />
+      <HashKey value="AAAAABBAA" />
+      <HashKey value="AABAABABA" />
       <HashKey value="AABAAABAB" />
-      <HashKey value="AAAAABBBB" />
+      <HashKey value="AAAAABBBA" />
     </HashKeys>
   </TransitionType>
   <TransitionType name="Top Left">
