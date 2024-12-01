@@ -83,7 +83,7 @@ class TransitionGenerator:
                         )
                         trans_infos_for_pair.append(
                             TransInfo(
-                                description=entry.description,  # Preserve original case
+                                description=entry.description,
                                 hashkey=final_hashkey,
                                 maptiles=entry.maptiles,
                                 statictiles=entry.statictiles,
@@ -134,7 +134,6 @@ class TransitionGenerator:
         """
         Generates output filenames based on Terrain A and Terrain B data.
 
-        :param terrain_a: Dictionary containing Terrain A data.
         :param terrain_b: Dictionary containing Terrain B data.
         :return: Output filename.
         """
@@ -150,7 +149,6 @@ class TransitionGenerator:
         """
         Generates the Transitions XML for a specific Terrain A and Terrain B pair and saves it to a file.
 
-        :param terrain_a: Dictionary containing Terrain A data.
         :param terrain_b: Dictionary containing Terrain B data.
         """
         # Generate TransInfo objects for the pair

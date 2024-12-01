@@ -1,6 +1,7 @@
 import logging
 from typing import Dict, List
 import xml.etree.ElementTree as ET
+import re
 
 from .trans_info import TransInfo
 
@@ -41,15 +42,7 @@ class TransitionParser:
                 )
                 continue
 
-            transition_type_name = description  # Preserve original case
-
-            # Extract HashKey if available
-            hashkey_element = transition_type.find("HashKey")
-            hashkey_value = (
-                hashkey_element.get("value", "").strip()
-                if hashkey_element is not None
-                else ""
-            )
+            transition_type_name = description
 
             # Extract MapTiles
             maptiles: List[Dict[str, str]] = []
@@ -57,6 +50,11 @@ class TransitionParser:
             if maptiles_element is not None:
                 for map_tile in maptiles_element.findall("MapTile"):
                     tile_id = map_tile.get("TileID", "").strip()
+                    
+                    hex_match = re.fullmatch(r"0x([0-9a-fA-F]+)$", tile_id, re.IGNORECASE)  
+                    if hex_match:
+                      tile_id = str(int(hex_match.group(1), 16))
+                    
                     alt_id_mod = map_tile.get("AltIDMod", "").strip()
                     if tile_id and alt_id_mod:
                         maptiles.append({"TileID": tile_id, "AltIDMod": alt_id_mod})
@@ -67,14 +65,19 @@ class TransitionParser:
             if statictiles_element is not None:
                 for static_tile in statictiles_element.findall("StaticTile"):
                     tile_id = static_tile.get("TileID", "").strip()
+                    
+                    hex_match = re.fullmatch(r"0x([0-9a-fA-F]+)$", tile_id, re.IGNORECASE)  
+                    if hex_match:
+                      tile_id = str(int(hex_match.group(1), 16))
+                      
                     alt_id_mod = static_tile.get("AltIDMod", "").strip()
                     if tile_id and alt_id_mod:
                         statictiles.append({"TileID": tile_id, "AltIDMod": alt_id_mod})
 
             self.transition_entries.append(
                 TransInfo(
-                    description=transition_type_name,  # Preserve original case
-                    hashkey=hashkey_value,
+                    description=transition_type_name,
+                    hashkey="",
                     maptiles=maptiles,
                     statictiles=statictiles,
                 )

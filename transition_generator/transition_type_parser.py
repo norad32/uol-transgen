@@ -59,12 +59,11 @@ class TransitionTypeParser:
 
     def validate_hashkey(self, hashkey: str) -> bool:
         """
-        Validates the format of a hashkey. Assuming hashkeys are hexadecimal strings.
+        Validates the format of a hashkey. 
 
         :param hashkey: HashKey string to validate.
         :return: True if valid, False otherwise.
         """
-        # Example validation: only hexadecimal characters
         return bool(re.fullmatch(r"[A-Fa-f0-9]+", hashkey))
 
     def get_transition_types(self) -> List[str]:
